@@ -1,6 +1,6 @@
 import React from 'react'
 import Fries from '../components/Fries.jsx'
-import Sidebar from '../components/sidebar.jsx'
+import Sidebar from '../components/Sidebar.jsx'
 
 
 const MainPage = () => {
