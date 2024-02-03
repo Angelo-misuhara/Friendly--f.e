@@ -4,8 +4,12 @@ const Fries = () => {
     const [onlick, setonlick] = useState(false)
    console.log(onlick)
   return (
-   <>
-      <div className='flex justify-end flex-col w-full md:hidden fixed left-0 z-50 top-0 ' >
+     <>
+       
+        <div className='flex justify-end flex-col w-full md:hidden fixed left-0 z-50 top-0 ' >
+            <div className='flex pt-2 justify-center items-center  '>
+           <h1 className='text-2xl font-black' id='titleLogoCP'>Freindly</h1>
+        </div>
             <div className=''>
                <img src="img/menu.png" onClick={()=>setonlick(!onlick)} alt="" />
             </div>
