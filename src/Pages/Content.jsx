@@ -3,7 +3,17 @@ import { Input } from '@chakra-ui/react'
 const Content = () => {
  return (
   <>
-   <div className='mx-4 md:mx-9  mt-20 flex flex-col  '>
+   <div>
+    <div>
+    <div className=' hidden md:flex flex-row pb-3  justify-center  items-center ' id='postNewIdea'>
+          <img src="img/profile.png" alt="" />
+          <div className=' ml-9 w-full flex  items-center cursor-text'>
+            <p> Post a new idea ! ...</p>
+          </div>
+          <button className='border cursor-not-allowed  rounded-xl px-10'> post</button>
+        </div>
+    </div>
+    <div className='mx-4 md:mx-9  mt-20 flex flex-col  '>
     <div className='flex flex-row py-3 '>
      <img src="img/profile.png" alt="" className='' />
      <div className='pl-3 flex flex-col'>
@@ -13,6 +23,7 @@ const Content = () => {
     </div>
     <div className='flex flex-row gap-6  '>
      <div>
+      <h3>caption</h3>
       <img src="img/ayamarkup.jpg" alt="" className='w-[20rem] rounded-md' />
      </div>
      <div className='mt-4 flex flex-col gap-5'>
@@ -58,6 +69,7 @@ const Content = () => {
     </div>
     <div className='flex flex-row gap-6  '>
      <div>
+      <h3>caption</h3>
       <img src="img/ayamarkup.jpg" alt="" className='w-[20rem] rounded-md' />
      </div>
      <div className='mt-4 flex flex-col gap-5'>
@@ -103,6 +115,7 @@ const Content = () => {
     </div>
     <div className='flex flex-row gap-6  '>
      <div>
+      <h3>caption</h3>
       <img src="img/ayamarkup.jpg" alt="" className='w-[20rem] rounded-md' />
      </div>
      <div className='mt-4 flex flex-col gap-5'>
@@ -148,6 +161,7 @@ const Content = () => {
     </div>
     <div className='flex flex-row gap-6  '>
      <div>
+      <h3>caption</h3>
       <img src="img/ayamarkup.jpg" alt="" className='w-[20rem] rounded-md' />
      </div>
      <div className='mt-4 flex flex-col gap-5'>
@@ -193,6 +207,7 @@ const Content = () => {
     </div>
     <div className='flex flex-row gap-6  '>
      <div>
+      <h3>caption</h3>
       <img src="img/ayamarkup.jpg" alt="" className='w-[20rem] rounded-md' />
      </div>
      <div className='mt-4 flex flex-col gap-5'>
@@ -238,6 +253,7 @@ const Content = () => {
     </div>
     <div className='flex flex-row gap-6  '>
      <div>
+      <h3>caption</h3>
       <img src="img/ayamarkup.jpg" alt="" className='w-[20rem] rounded-md' />
      </div>
      <div className='mt-4 flex flex-col gap-5'>
@@ -283,6 +299,7 @@ const Content = () => {
     </div>
     <div className='flex flex-row gap-6  '>
      <div>
+      <h3>caption</h3>
       <img src="img/ayamarkup.jpg" alt="" className='w-[20rem] rounded-md' />
      </div>
      <div className='mt-4 flex flex-col gap-5'>
@@ -328,6 +345,7 @@ const Content = () => {
     </div>
     <div className='flex flex-row gap-6  '>
      <div>
+      <h3>caption</h3>
       <img src="img/ayamarkup.jpg" alt="" className='w-[20rem] rounded-md' />
      </div>
      <div className='mt-4 flex flex-col gap-5'>
@@ -362,6 +380,7 @@ const Content = () => {
       </p>
      </div>
     </div>
+   </div>
    </div>
   </>
  )

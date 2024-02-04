@@ -18,8 +18,15 @@ html {
 #titleLogoCP {
   font-family: "Satisfy", cursive;
 }
+#titleLogin {
+  font-family: "Satisfy", cursive;
+}
 #postNewIdea {
   border-bottom: 1px solid #f3f5f7;
+}
+#ProfilePage {
+  border-bottom: 1px solid #f3f5f7;
+  width: auto;
 }
 #fries {
   background: rgba(255, 255, 255, 0.25);
