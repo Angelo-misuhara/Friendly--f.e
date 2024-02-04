@@ -17,8 +17,8 @@ const MainPage = () => {
       <div className="md:basis-4/5 mt-11 lg:mx-32 ">
        
      
-        {/* <Content /> */}
-        <Profile/>
+        {/* <Content /> 
+        <Profile/> */}
         
       </div>
     </div>
